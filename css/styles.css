@@ -1,0 +1,64 @@
+h1,
+h2,
+p,
+footer {
+  font-family: "Courier Prime", monospace;
+}
+hr {
+  border-top: 2px dotted;
+}
+.headers {
+  font-family: "Courier Prime", monospace;
+  display: flex;
+  justify-content: flex-end;
+}
+.head {
+  box-sizing: content-box;
+  padding: 10px;
+  margin: 10px;
+  text-decoration: none;
+  color: rgb(33, 37, 41);
+}
+.head:hover {
+  color: #00b594;
+}
+#profile-pic {
+  opacity: 0.5;
+}
+#weather-app {
+  opacity: 0.5;
+}
+#weather-app:hover {
+  opacity: 1;
+}
+#email-link {
+  text-decoration: none;
+  color: rgb(33, 37, 41);
+}
+#email-link:hover {
+  color: #00b594;
+}
+#about-link {
+  text-decoration: none;
+  color: rgb(33, 37, 41);
+}
+#about-link:hover {
+  color: #00b594;
+}
+@media (max-width: 600px) {
+  #email-link,
+  #about-link,
+  #job-title {
+    font-size: 8px;
+  }
+  #profile-pic {
+    width: 100%;
+  }
+}
+@media(max-width:900px){
+   #index-info{
+    font-size: 10px;
+
+    }
+}
+}
