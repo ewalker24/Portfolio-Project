@@ -54,6 +54,9 @@ h2 a {
 #about-link:hover {
   color: #00b594;
 }
+#about-meP {
+  line-height: 1.5;
+}
 @media (max-width: 600px) {
   #email-link,
   #about-link,
