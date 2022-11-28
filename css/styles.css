@@ -7,6 +7,10 @@ footer {
 hr {
   border-top: 2px dotted;
 }
+h2 a {
+  text-decoration: none;
+  color: #00b594;
+}
 .headers {
   font-family: "Courier Prime", monospace;
   display: flex;
@@ -25,12 +29,17 @@ hr {
 #profile-pic {
   opacity: 0.5;
 }
-#weather-app {
-  opacity: 0.5;
-}
-#weather-app:hover {
+#weather-app,
+#yoga-app,
+#dictionary-app {
   opacity: 1;
 }
+#weather-app:hover,
+#yoga-app:hover,
+#dictionary-app:hover {
+  opacity: 0.5;
+}
+
 #email-link {
   text-decoration: none;
   color: rgb(33, 37, 41);
@@ -54,11 +63,4 @@ hr {
   #profile-pic {
     width: 100%;
   }
-}
-@media(max-width:900px){
-   #index-info{
-    font-size: 10px;
-
-    }
-}
 }
