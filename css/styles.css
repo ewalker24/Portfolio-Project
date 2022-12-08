@@ -26,6 +26,12 @@ h2 a {
 .head:hover {
   color: #00b594;
 }
+.socials a {
+  color: #00b594;
+}
+.socials a:hover {
+  opacity: 0.5;
+}
 
 #profile-pic {
   opacity: 0.5;
