@@ -31,12 +31,12 @@ h2 a {
   opacity: 0.5;
 }
 #weather-app,
-#yoga-app,
+#chrome_ext,
 #dictionary-app {
   opacity: 1;
 }
 #weather-app:hover,
-#yoga-app:hover,
+#chrome_ext:hover,
 #dictionary-app:hover {
   opacity: 0.5;
 }
